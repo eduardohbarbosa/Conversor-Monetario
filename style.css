@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+section{
+    width: 400px;
+    min-height: 300px;
+    margin: 100px auto;
+    padding: 10px;
+    background-color: rgba(0, 100, 0, 0.308);
+    border-radius: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+span{
+    margin: 10px;
+}
