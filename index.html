@@ -10,20 +10,22 @@
 <body>
     <section>
         <h1>Conversor de Moedas</h1>
-        <span>Valor</span><input type="number" id="moeda1">
+        <span>Valor:</span><input type="number" id="moeda1">
         <select id="unidade1">
             <option value="reais">Real R$</option>
             <option value="dolar">Dólar Americano US$</option>
             <option value="euro">Euro &euro;</option>
             <option value="bitcoin">Bitcoin &#8383;</option>
         </select>
-        <span>Para</span>
+<br>
+        <span>Para:</span>
         <select id="unidade2">
             <option value="reais">Real R$</option>
             <option value="dolar">Dólar Americano US$</option>
             <option value="euro">Euro &euro;</option>
             <option value="bitcoin">Bitcoin &#8383;</option>
         </select>
+<br>
         <button onclick="converter()">Converter</button>
         <p id="resultado"></p>
         <p>Valores baseados na cotação do dia 17/09/2021</p>
